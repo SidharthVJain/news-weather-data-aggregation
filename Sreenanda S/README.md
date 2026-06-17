@@ -13,7 +13,9 @@ pip install -r requirements.txt
 
 Run
 python app.py
+
 Technologies Used
+
 * Python
 * Requests
 * Python Dotenv
