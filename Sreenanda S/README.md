@@ -7,8 +7,10 @@ Features
 * Fetches current weather using OpenWeatherMap API
 * Shows temperature and humidity
 * Secure API key storage using `.env`
+
 Installation
 pip install -r requirements.txt
+
 Run
 python app.py
 Technologies Used
