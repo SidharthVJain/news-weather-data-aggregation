@@ -1,2 +1,7 @@
 #.env file contains the api keys for today's task which has weather api and also news api
 .env
+
+#python environment
+venv/
+
+__pycache__/
