@@ -28,8 +28,7 @@ def get_weather(city):
         return "Weather data currently unavailable."
 
 def get_news(topic):
-    """Fetches top 5 news articles for a given topic."""
-    # pageSize=5 ensures we only get exactly 5 articles back to save bandwidth
+    #Fetches top 5 news articles for a given topic.
     url = f"https://newsapi.org/v2/everything?q={topic}&pageSize=5&apiKey={NEWS_API_KEY}"
     response = requests.get(url)
     
